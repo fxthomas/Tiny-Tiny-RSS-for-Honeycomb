@@ -446,6 +446,7 @@ public class FeedsFragment extends Fragment implements OnItemClickListener, OnSh
 				m_activity.login(true);
 			} else {
 				m_activity.setLoadingStatus(getErrorMessage(), false);
+        m_activity.loginFailure();
 			}
 	    }
 	}
